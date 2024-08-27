@@ -342,6 +342,10 @@ a:hover{
 
 @media screen and (min-width:343px) and (max-width:500px){
 
+    :root{
+        --shadow: 0px 20px 65px 30px #212231bd;
+    }
+    
     .soil{
         width: 45px;
     }
@@ -361,3 +365,4 @@ a:hover{
     }
 
 } 
+ 
