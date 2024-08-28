@@ -350,8 +350,12 @@ a:hover{
         width: 45px;
     }
 
+    .box{
+        width: 90%;
+    }
+
     .circular div{
-        transform: rotateY(calc(var(--i) * 60deg)) translateZ(180px);
+        transform: rotateY(calc(var(--i) * 60deg)) translateZ(130px);
     }
 
     .circular div img{
