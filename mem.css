@@ -394,7 +394,7 @@ td{
     }
 
     .circular div{
-        transform: rotateY(calc(var(--i) * 45deg)) translateZ(180px);
+        transform: rotateY(calc(var(--i) * 45deg)) translateZ(135px);
     }
 
    .circular div img{
