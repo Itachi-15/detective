@@ -345,10 +345,20 @@ a:hover{
     :root{
         --shadow: 0px 20px 65px 30px #212231bd;
     }
-    
+
+    .loog{
+        margin: auto;
+        flex-direction: row;
+        position: static;
+        width: 100%;
+        
+    }
+
     .soil{
+        margin: 2rem 0.7rem 0rem;
         width: 45px;
     }
+
 
     .box{
         width: 90%;
