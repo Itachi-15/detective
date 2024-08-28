@@ -319,7 +319,7 @@ img{
 
     .box{
         width: 304px;
-        margin: 4rem 11% 2.5rem  ;
+        margin: 4rem 6% 2.5rem  ;
         flex-direction: column;
     }
 
@@ -338,7 +338,7 @@ img{
     }
 
     .circular div{
-        transform: rotateY(calc(var(--i) * 45deg)) translateZ(180px);
+        transform: rotateY(calc(var(--i) * 45deg)) translateZ(135px);
     }
 
    .circular div img{
