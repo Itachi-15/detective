@@ -359,6 +359,9 @@ a:hover{
         width: 45px;
     }
 
+    .sub{
+        font-size: large;
+    }
 
     .box{
         width: 90%;
