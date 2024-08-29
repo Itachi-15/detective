@@ -145,7 +145,7 @@ a:hover{
     border: 1px solid white;
     border-radius: 100%;
     transition: 1s;
-    z-index: 4;
+    
 }
 .soil:hover{
     border: 2px solid white;
