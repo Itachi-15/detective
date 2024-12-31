@@ -16,6 +16,7 @@
 body{
     background-image: url( rr.webp) ;
     background-size: contain;
+    background-attachment:fixed;
     color:white ;
     cursor:default;
     -webkit-user-select: none;
@@ -49,7 +50,6 @@ h3{
 
 p{
     margin: 10px;
-    text-wrap: wrap;
     font-size: 20px;
     width: 28rem;
     line-height:25px;
@@ -59,7 +59,6 @@ p{
 .pre{ 
     width: 345px;
     font-size: 18px;
-    margin: 0.9px;
     line-height:24px;
     word-spacing: 2.8px;
     margin: 10px 5px 5px 10px;
@@ -180,19 +179,16 @@ td{
     margin-bottom: 3rem;
     width: 51rem;
     border: var(--bord) 2.4px ;
-    height: 48rem;
     background-color: var(--bg);
     box-shadow: var(--shadow);
     border-radius: var(--bord-radius);
     z-index: 2;
-    text-wrap: wrap;
 }
 
 .tab{
     border: var(--bord) 1.4px;
     position: absolute;
     width: 308px;
-    height: auto;
     left: 59%;
     top: 0.9rem;
     text-align: center;
@@ -213,10 +209,6 @@ td{
 }
 
 .right{
-    position: relative;
-    top: 0px;
-    right: auto;
-    width: 23rem;
     border: var(--bord) 2.3px ;
     height: 37rem;
     background-color: var(--bg);
