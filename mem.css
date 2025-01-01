@@ -15,7 +15,7 @@
 
 body{
     background-image: url( rr.webp) ;
-    background-size: contain;
+    background-size:cover;
     background-attachment:fixed;
     color:white ;
     cursor:default;
@@ -300,9 +300,7 @@ td{
     color: var(--span);
 }
 
-
 /* ////////////////////////// */
-
 
 @media screen and (min-width:343px) and (max-width:558px) { 
 
@@ -397,7 +395,6 @@ td{
    .geniral{
     margin-left: 6%;
    }
-
 
 }
 
