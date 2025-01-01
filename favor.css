@@ -5,7 +5,6 @@
     --span:#31f1ffea;
 }
 
-
 *{
     padding: 0;
     margin: 0;
@@ -14,7 +13,8 @@
 
 body{
     background-image: url( rr.webp) ;
-    background-size: contain;
+    background-size:cover;
+    background-attachment:fixed;
     color:white ;
     cursor:default;
     -webkit-user-select: none;
@@ -156,7 +156,6 @@ a:hover{
 
 /* //////////////////// */
 
-
 .box{
     margin: 7rem 2.5rem 2rem 12%;
     background-color: var(--bg);
@@ -183,7 +182,6 @@ a:hover{
     width: 330px;
     margin: 5px 19%;
 }
-
 
 .a, .b, .c, .d, .e{
     display: none;
