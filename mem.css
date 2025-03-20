@@ -214,6 +214,7 @@ td{
     background-color: var(--bg);
     box-shadow: var(--shadow);
     border-radius: var(--bord-radius);
+    width: 22.7rem;
 }
 
 .right:hover{
